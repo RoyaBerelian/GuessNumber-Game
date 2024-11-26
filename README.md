@@ -4,7 +4,7 @@
 
 
 
-- [Demo Project]( https://royaberelian.github.io/project_BarberShop_tailwind/)
+- [Demo Project]( )
 
 - Developed by Roya berelian
 
