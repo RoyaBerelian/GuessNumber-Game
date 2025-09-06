@@ -1,4 +1,4 @@
-let secretNumber = Math.floor(Math.random() * 20) + 1;
+let secretNumber = Math.floor(Math.random() * 50) + 1;
 let score = 20;
 let highscore = 0;
 
@@ -41,7 +41,7 @@ document.querySelector('.check').addEventListener('click', () => {
 
 document.querySelector('.again').addEventListener('click', () => {
     score = 20;
-    secretNumber = Math.trunc(Math.random() * 20) + 1;
+    secretNumber = Math.trunc(Math.random() * 50) + 1;
     displayMessage('Start guessing...');
     document.querySelector('.score').textContent = score;
     document.querySelector('.number').textContent = '?';
